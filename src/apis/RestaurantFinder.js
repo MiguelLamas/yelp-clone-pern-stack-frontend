@@ -1,5 +1,5 @@
 import axios from "axios";
-require("dotenv").config();
+
 
 const baseURL = process.env.NODE_ENV === 'production' ? `https://yelp-clone-pern-stack-api.onrender.com/api/v1/restaurants`
 : `http://localhost:5000/api/v1/restaurants`

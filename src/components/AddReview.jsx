@@ -7,7 +7,7 @@ const AddReviews = () => {
  
 
   const [name, setName] = useState("");
-  const [rating, setRating] = useState("Rating");
+  const [rating, setRating] = useState("");
   const [reviewText, setReviewText] = useState("");
 
   const handleSubmitReview = async (e) => {

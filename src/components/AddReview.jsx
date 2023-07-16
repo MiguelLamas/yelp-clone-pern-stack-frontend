@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import RestaurantFinder from "../apis/RestaurantFinder";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const AddReviews = () => {
   const { id } = useParams();
- 
+  let navigate = useNavigate();
 
   const [name, setName] = useState("");
   const [rating, setRating] = useState("");
@@ -19,7 +19,8 @@ const AddReviews = () => {
         review: reviewText,
         rating: rating,
       });
-      window.location.reload();
+      // window.location.reload();
+      navigate('/');
     } catch (err) {}
   };
 

@@ -19,7 +19,7 @@ const RestaurantList = (props) => {
     };
 
     fetchData();
-  }, []);
+  }, [setRestaurants]);
 
   const handleDelete = async (e, id) => {
     // e.stopPropagation means when we click Update button we are not going to send that Event up to the Table row.

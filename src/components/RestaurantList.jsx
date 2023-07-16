@@ -12,7 +12,7 @@ const RestaurantList = (props) => {
       try {
         const response = await RestaurantFinder.get("/");
         console.log(response.data.data);
-        setRestaurants(response.data.data);
+        setRestaurants(response.data.data.restaurants);
       } catch (err) {
         console.log(err);
       }

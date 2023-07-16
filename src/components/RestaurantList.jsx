@@ -12,14 +12,14 @@ const RestaurantList = (props) => {
       try {
         const response = await RestaurantFinder.get("/");
         console.log(response.data.data);
-        setRestaurants(response.data.data.restaurants);
+        setRestaurants(response.data.data);
       } catch (err) {
         console.log(err);
       }
     };
 
     fetchData();
-  }, [setRestaurants]);
+  }, []);
 
   const handleDelete = async (e, id) => {
     // e.stopPropagation means when we click Update button we are not going to send that Event up to the Table row.

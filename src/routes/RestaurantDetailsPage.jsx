@@ -10,6 +10,7 @@ const RestaurantDetailsPage = () => {
   const { id } = useParams();
   const { selectedRestaurant, setSelectedRestaurant } =
     useContext(RestaurantsContext);
+ 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,7 +25,7 @@ const RestaurantDetailsPage = () => {
     };
 
     fetchData();
-  });
+  }, []);
 
   return (
     <div>

@@ -20,7 +20,7 @@ const AddReviews = () => {
         rating: rating,
       });
       // window.location.reload(false);
-      navigate(`/${id}/addReview`);
+      navigate('/');
     } catch (err) {}
   };
 

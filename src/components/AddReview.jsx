@@ -19,7 +19,7 @@ const AddReviews = () => {
         review: reviewText,
         rating: rating,
       });
-      // window.location.reload(false);
+      // window.location.reload();
       navigate('/');
     } catch (err) {}
   };

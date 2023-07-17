@@ -3,7 +3,7 @@ import RestaurantFinder from "../apis/RestaurantFinder";
 import { RestaurantsContext } from "../context/RestaurantsContext";
 
 const AddRestaurant = () => {
-  const { restaurants, addRestaurants } = useContext(RestaurantsContext);
+  const { addRestaurants } = useContext(RestaurantsContext);
 
   const [name, setName] = useState("");
   const [location, setLocation] = useState("");
@@ -18,7 +18,7 @@ const AddRestaurant = () => {
         price_range: priceRange,
       });
       addRestaurants(response.data.data.restaurant);
-      restaurants()
+      window.location.reload();
     } catch (err) {}
   };
 

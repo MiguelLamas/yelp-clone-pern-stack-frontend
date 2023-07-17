@@ -18,6 +18,7 @@ const AddRestaurant = () => {
         price_range: priceRange,
       });
       addRestaurants(response.data.data.restaurant);
+      e.target.reset()
     } catch (err) {}
   };
 

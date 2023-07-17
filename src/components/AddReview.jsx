@@ -4,7 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 const AddReviews = () => {
   const { id } = useParams();
-  // let navigate = useNavigate();
+  let navigate = useNavigate();
 
   const [name, setName] = useState("");
   const [rating, setRating] = useState("");
@@ -19,8 +19,8 @@ const AddReviews = () => {
         review: reviewText,
         rating: rating,
       });
-      window.location.reload(false);
-      // navigate('/');
+      // window.location.reload(false);
+      navigate(`/${id}/addReview`);
     } catch (err) {}
   };
 

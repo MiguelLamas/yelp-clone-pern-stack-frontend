@@ -4,6 +4,13 @@ A basic Yelp Clone App built with the PERN stack technologies. The application a
 
 **This README is for the Frontend of the Yelp Clone PERN App. If you would like to explore the Backend of the app please go to the [Backend repository](https://github.com/MiguelLamas/yelp-clone-pern-stack-api).**
 
+## **_Features_** 
+
+- Add multiple restaurants
+- Add multiple reviews and ratings for restaurants
+- Update restaurant information
+- Delete listed restaurants that you no longer want/need
+
 ## Main Learning Points:
 
 * How the Frontend interacts with the Server and Relational Database via REST API (using HTTP Requests to run CRUD operations in the database.

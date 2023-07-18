@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# YELP CLONE - Frontend (PERN Stack - Postgres, Express, React, and Node)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A basic Yelp Clone App built with the PERN stack technologies. The application allows users to add restaurants, their location and price range initially. The user can then add reviews and ratings to each restaurant, as well as update and delete individual restaurants. The app takes into account the ratings provided by users and returns an average ratings score for each one aswell as a total of the number of reviews submitted.
 
-## Available Scripts
+**This README is for the Frontend of the Yelp Clone PERN App. If you would like to explore the Backend of the app please go to the [Backend repository](https://github.com/MiguelLamas/yelp-clone-pern-stack-api).**
 
-In the project directory, you can run:
+## Main Learning Points:
 
-### `npm start`
+* How the Frontend interacts with the Server and Relational Database via REST API (using HTTP Requests to run CRUD operations in the database.
+* 
+* Building a server (index.js) require libraries, adding the middleware app.use and app.listen to start server.
+* How to create a Postgres Database and Table (including defining our PostgreSQL Schema)
+* Connecting a Postgres Database and Server (require 'pg' library and our Pool, create a new Pool and set up our configurations inside, import into Server index.js).
+* Building Routes (POST, GET, PUT, DELETE) with PostgreSQL Queries (REST API)
+* Testing RESTful APIs with Postman and/or Thunder in VS Code.
+* Setting up a Client Side with React.
+* Building Components (Input, List, Edit and Delete).
+* Passing Props via components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Frontend Built with:
 
-### `npm test`
+* React.js
+* JavaScript
+* HTML
+* CSS
+* Bootstrap 5
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Backend Built with:
 
-### `npm run build`
+* Node.js
+* Express
+* PostgreSQL
+* CORS - Cross-Origin Resource Sharing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployed with:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Deployed using Render (PostgreSQL Database, Backend Webservice & Frontend Static Site)
 
-### `npm run eject`
+## Project Setup & Running:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Prerequisites
+  * Install Node.js
+  * Install [postgres](https://www.youtube.com/watch?v=fZQI7nBu32M&t=0s)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Clone Repo `https://github.com/MiguelLamas/to-do-app-pern-stack-frontend.git`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Before starting the project, follow these steps to create project and get your server up and running:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  * `mkdir server` - starting our server
+  * `cd server`
+  * `npm init` - is going to keep track of all our packages inside the application
+  * `npm install express pg cors` - express allows us to quickly create a server in Node.js, cors allows different domain applications to interact with each other (server will be running on localhost:5000 & React App on localhost:3000, postgres is there to connect our server with our database in order to run postgres queries)
+  * `touch index.js` - require the libraries in this file, app.listen to start server, app.use to create middlewear (express, cors)
+  * `npm install -g nodemon`
+  * `nodemon index` - will watch index.js file, every time there's a change it will instantly restart it
+  * `npx create-react-app client` - setting up client side with React
+  * `npm start` - to get client side started
 
-## Learn More
+* To make your dev experience easier, download these VS code extensions:
+  * ES7 React/Redux/GraphQL/React-Native snippets
+  * ESLint
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Developer:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Miguel Lamas - [GitHub](https://github.com/MiguelLamas)
 
-### Code Splitting
+## License:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Copyright (c) 2023 Miguel Lamas - https://github.com/MiguelLamas
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

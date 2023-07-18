@@ -4,25 +4,62 @@ A basic Yelp Clone App built with the PERN stack technologies. The application a
 
 **This README is for the Frontend of the Yelp Clone PERN App. If you would like to explore the Backend of the app please go to the [Backend repository](https://github.com/MiguelLamas/yelp-clone-pern-stack-api).**
 
-## **_Features_** 
+<br />
 
+---
+
+<br />
+
+## **_Features:_** 
 - Add multiple restaurants
 - Add multiple reviews and ratings for restaurants
 - Update restaurant information
 - Delete listed restaurants that you no longer want/need
 
-## Main Learning Points:
+  <br />
 
-* How the Frontend interacts with the Server and Relational Database via REST API (using HTTP Requests to run CRUD operations in the database.
-* 
-* Building a server (index.js) require libraries, adding the middleware app.use and app.listen to start server.
-* How to create a Postgres Database and Table (including defining our PostgreSQL Schema)
-* Connecting a Postgres Database and Server (require 'pg' library and our Pool, create a new Pool and set up our configurations inside, import into Server index.js).
-* Building Routes (POST, GET, PUT, DELETE) with PostgreSQL Queries (REST API)
-* Testing RESTful APIs with Postman and/or Thunder in VS Code.
-* Setting up a Client Side with React.
-* Building Components (Input, List, Edit and Delete).
-* Passing Props via components.
+---
+
+<br />
+
+## **_Getting Started_**
+
+### **Backend**
+
+The backend is deployed on ElephantSQL however if you would like to run locally you will need to follow the steps below.
+
+1. Git clone the backend repository by pasting the following into your terminal:
+
+```bash
+  git clone https://github.com/MiguelLamas/yelp-clone-pern-stack-api
+```
+
+2. Install all required dependencies by running:
+
+```bash
+  npm i
+```
+
+3. Copy your database (e.g. ElephantSQL) URL into the .env file, following the format:
+
+```bash
+ DATABASE_URL = <Database URL goes here>
+```
+
+4. Create all tables in your database by running the following scripts in the terminal:
+
+```bash
+npm run createRestaurantsTable
+npm run createReviewsTable
+```
+
+5. To populate the tables you can achieve this by interacting with the front-end, you can either run this locally or host on a hosting platform - for this project I used Render but you are free to choose your own. For assistance deploying on Render please [click here](https://render.com/docs).
+
+6. Finally, to run the server locally use the following script within your terminal:
+
+```bash
+  npm run start
+```
 
 
 ## Frontend Built with:

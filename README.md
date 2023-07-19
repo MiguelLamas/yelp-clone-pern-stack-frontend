@@ -1,3 +1,4 @@
+
 # YELP CLONE - Frontend (PERN Stack - Postgres, Express, React, and Node)
 
 A basic Yelp Clone App built with the PERN stack technologies. The application allows users to add restaurants, their location and price range initially. The user can then add reviews and ratings to each restaurant, as well as update and delete individual restaurants. The app takes into account the ratings provided by users and returns an average ratings score for each one aswell as a total of the number of reviews submitted.

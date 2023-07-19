@@ -11,8 +11,9 @@ A basic Yelp Clone App built with the PERN stack technologies. The application a
 <br />
 
 ## **_Features:_** 
-- Add multiple restaurants
+- Add different restaurants
 - Add multiple reviews and ratings for restaurants
+- Get an average star rating, plus number of reviews available per restaurant
 - Update restaurant information
 - Delete listed restaurants that you no longer want/need
 
@@ -22,7 +23,7 @@ A basic Yelp Clone App built with the PERN stack technologies. The application a
 
 <br />
 
-## **_Getting Started_**
+## *_Project Setup & Running:_*
 
 ### **Backend**
 
@@ -61,6 +62,12 @@ npm run createReviewsTable
   npm run start
 ```
 
+<br />
+
+---
+
+<br />
+
 
 ## Frontend Built with:
 
@@ -80,31 +87,11 @@ npm run createReviewsTable
 
 ## Deployed with:
 
-* Deployed using Render (PostgreSQL Database, Backend Webservice & Frontend Static Site)
+* Deployed using ElephantSQL & Render (PostgreSQL Database, Backend Webservice & Frontend Static Site)
 
-## Project Setup & Running:
 
-* Prerequisites
-  * Install Node.js
-  * Install [postgres](https://www.youtube.com/watch?v=fZQI7nBu32M&t=0s)
 
-* Clone Repo `https://github.com/MiguelLamas/to-do-app-pern-stack-frontend.git`
 
-* Before starting the project, follow these steps to create project and get your server up and running:
-
-  * `mkdir server` - starting our server
-  * `cd server`
-  * `npm init` - is going to keep track of all our packages inside the application
-  * `npm install express pg cors` - express allows us to quickly create a server in Node.js, cors allows different domain applications to interact with each other (server will be running on localhost:5000 & React App on localhost:3000, postgres is there to connect our server with our database in order to run postgres queries)
-  * `touch index.js` - require the libraries in this file, app.listen to start server, app.use to create middlewear (express, cors)
-  * `npm install -g nodemon`
-  * `nodemon index` - will watch index.js file, every time there's a change it will instantly restart it
-  * `npx create-react-app client` - setting up client side with React
-  * `npm start` - to get client side started
-
-* To make your dev experience easier, download these VS code extensions:
-  * ES7 React/Redux/GraphQL/React-Native snippets
-  * ESLint
 
 ## Developer:
 

@@ -68,30 +68,55 @@ npm run createReviewsTable
 
 <br />
 
+### **Front-end**
 
-## Frontend Built with:
+To run the front-end locally follow the steps below:
 
-* React.js
-* JavaScript
-* HTML
-* CSS
-* Bootstrap 5
+1. Git clone the front-end repository by pasting the following into your terminal:
 
-## Backend Built with:
+```bash
+  git clone https://github.com/MiguelLamas/yelp-clone-pern-stack-frontend
+```
 
-* Node.js
-* Express
-* PostgreSQL
-* CORS - Cross-Origin Resource Sharing
+2. Install all necessary dependencies by running the following command in the terminal:
+
+```bash
+  npm i
+```
+
+3. Start the app using:
+
+```bash
+  npm run start
+```
+<br/>
+
+---
+
+<br />
+
+## **_Tech Stack_**
+
+**Frontend:**  React.js, JavaScript, HTML, Bootstrap 5
+</br>
+**Backend:**  Node.js, Express, PostgreSQL, CORS
+
+<br/>
+
+---
+
+<br />
 
 
 ## Deployed with:
 
-* Deployed using ElephantSQL & Render (PostgreSQL Database, Backend Webservice & Frontend Static Site)
+* Render (for API Web Service & Frontend Static Site) & ElephantSQL (for PostgreSQL Database)
 
+<br/>
 
+---
 
-
+<br />
 
 ## Developer:
 

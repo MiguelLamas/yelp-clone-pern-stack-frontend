@@ -1,3 +1,4 @@
+<br />
 
 # YELP CLONE - Frontend (PERN Stack - Postgres, Express, React, and Node)
 
@@ -9,24 +10,20 @@ A basic Yelp Clone App built with the PERN stack technologies. The application a
 
 ---
 
-<br />
-
-## **_Features:_** 
+## **Features:** 
 - Add different restaurants
 - Add multiple reviews and ratings for restaurants
 - Get an average star rating, plus number of reviews available per restaurant
 - Update restaurant information
 - Delete listed restaurants that you no longer want/need
 
-  <br />
+<br />
 
 ---
 
-<br />
+## *Project Setup & Running:*
 
-## *_Project Setup & Running:_*
-
-### **_Backend:_**
+### **Backend:**
 
 The backend is deployed on ElephantSQL however if you would like to run locally you will need to follow the steps below.
 
@@ -67,9 +64,7 @@ npm run createReviewsTable
 
 ---
 
-<br />
-
-### **_Frontend:_**
+### **Frontend:**
 
 To run the front-end locally follow the steps below:
 
@@ -94,28 +89,20 @@ To run the front-end locally follow the steps below:
 
 ---
 
-<br />
+## **Tech Stack:**
 
-## **_Tech Stack:_**
-
-**Frontend**
+**Frontend:**
 - React.js, JavaScript, HTML, Bootstrap 5
 
-**Backend**
+**Backend:**
 - Node.js, Express, PostgreSQL, CORS
+
+**Deployed with:**
+- Render (for API Web Service & Frontend Static Site) & ElephantSQL (for PostgreSQL Database)
 
 <br/>
 
 ---
-
-<br />
-
-
-## **_Deployed with:_**
-
-* Render (for API Web Service & Frontend Static Site) & ElephantSQL (for PostgreSQL Database)
-
-<br />
 
 ## **_Developer:_**
 
@@ -123,7 +110,13 @@ To run the front-end locally follow the steps below:
 
 <br />
 
+---
+
 ## **_License:_**
 
 Copyright (c) 2023 Miguel Lamas - https://github.com/MiguelLamas
+
+<br />
+
+---
 

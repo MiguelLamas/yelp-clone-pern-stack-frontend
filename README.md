@@ -98,7 +98,7 @@ To run the front-end locally follow the steps below:
 - Node.js, Express, PostgreSQL, CORS
 
 **Deployed with:**
-- Render (for API Web Service & Frontend Static Site) & ElephantSQL (for PostgreSQL Database)
+- Render (for API Web Service & Frontend Static Site) and ElephantSQL (for PostgreSQL Database)
 
 <br/>
 

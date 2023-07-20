@@ -99,7 +99,7 @@ To run the front-end locally follow the steps below:
 ## **_Tech Stack_**
 
 **Frontend**
-- React.js, JavaScript, HTML, Bootstrap 5,
+- React.js, JavaScript, HTML, Bootstrap 5
 </br>
 **Backend**
 - Node.js, Express, PostgreSQL, CORS
@@ -111,7 +111,7 @@ To run the front-end locally follow the steps below:
 <br />
 
 
-## Deployed with:
+## **_Deployed with_**
 
 * Render (for API Web Service & Frontend Static Site) & ElephantSQL (for PostgreSQL Database)
 

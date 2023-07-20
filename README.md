@@ -115,15 +115,13 @@ To run the front-end locally follow the steps below:
 
 * Render (for API Web Service & Frontend Static Site) & ElephantSQL (for PostgreSQL Database)
 
-<br/>
-
----
-
 <br />
 
 ## **_Developer:_**
 
 * Miguel Lamas - [GitHub](https://github.com/MiguelLamas)
+
+<br />
 
 ## **_License:_**
 

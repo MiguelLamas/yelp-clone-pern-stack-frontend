@@ -26,7 +26,7 @@ A basic Yelp Clone App built with the PERN stack technologies. The application a
 
 ## *_Project Setup & Running:_*
 
-## **_Backend -_**
+### **_Backend_**
 
 The backend is deployed on ElephantSQL however if you would like to run locally you will need to follow the steps below.
 
@@ -69,7 +69,7 @@ npm run createReviewsTable
 
 <br />
 
-## **_Frontend -_**
+### **_Frontend_**
 
 To run the front-end locally follow the steps below:
 
@@ -98,9 +98,11 @@ To run the front-end locally follow the steps below:
 
 ## **_Tech Stack_**
 
-**Frontend -**  React.js, JavaScript, HTML, Bootstrap 5
+**Frontend**
+- React.js, JavaScript, HTML, Bootstrap 5,
 </br>
-**Backend -**  Node.js, Express, PostgreSQL, CORS
+**Backend**
+- Node.js, Express, PostgreSQL, CORS
 
 <br/>
 

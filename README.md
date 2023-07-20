@@ -21,7 +21,7 @@ A basic Yelp Clone App built with the PERN stack technologies. The application a
 
 ---
 
-## *Project Setup & Running:*
+## **Project Setup & Running:**
 
 ### **Backend:**
 
@@ -104,7 +104,7 @@ To run the front-end locally follow the steps below:
 
 ---
 
-## **_Developer:_**
+## **Developer:**
 
 * Miguel Lamas - [GitHub](https://github.com/MiguelLamas)
 
@@ -112,7 +112,7 @@ To run the front-end locally follow the steps below:
 
 ---
 
-## **_License:_**
+## **License:**
 
 Copyright (c) 2023 Miguel Lamas - https://github.com/MiguelLamas
 
